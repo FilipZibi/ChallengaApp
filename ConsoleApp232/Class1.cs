@@ -19,7 +19,7 @@ public class User
 
     public string Age { get; private set; }
 
-    public string Result 
+    public int Result 
     { 
         get
         {

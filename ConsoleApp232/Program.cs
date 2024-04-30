@@ -22,20 +22,10 @@ user3.AddScore(8);
 user3.AddScore(7);
 user3.AddScore(6);
 
-Console.WriteLine("Employee1 result is", user1.Result);
-Console.WriteLine("Employee2 result is" , user2.Result);
-Console.WriteLine("Employee3 result is", user3.Result);
-
-if
-{
-    user1.Result > user2.Result && user1.Result > user3.Result
-        Console.WriteLine(user1.Result);
-
-}
 
 List<User> users = new List<User>();
 {
-    user1, user2, user3
+    user1, user2, user3,
 };
 
 int maxResult = -1;
