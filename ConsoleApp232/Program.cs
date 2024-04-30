@@ -23,7 +23,7 @@ user3.AddScore(7);
 user3.AddScore(6);
 
 
-List<User> users = new List<User>();
+List<User> users = new List<User>()
 {
     user1, user2, user3,
 };
@@ -31,6 +31,7 @@ List<User> users = new List<User>();
 int maxResult = -1;
 User userWithMaxResult = null;
 var result = user1.Result;
+
 
 foreach (var user in users)
 {
