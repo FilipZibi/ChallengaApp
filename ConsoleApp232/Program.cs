@@ -42,4 +42,8 @@ foreach (var user in users)
 
 }
 
-Console.WriteLine(userWithMaxResult);
+Console.WriteLine("Najlepszy pracownik to");
+Console.WriteLine(userWithMaxResult.Name);
+Console.WriteLine(userWithMaxResult.Surname);
+Console.WriteLine("z rezultatem");
+Console.WriteLine(userWithMaxResult.Result);
