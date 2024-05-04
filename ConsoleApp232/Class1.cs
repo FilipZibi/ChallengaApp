@@ -19,17 +19,19 @@ public class User
 
     public string Age { get; private set; }
 
-    public int Result 
-    { 
-        get
-        {
-            return 0;
-        }
-    }
     public void AddScore(int number)
     {
         this.score.Add(number);
     }
+
+    public int Result 
+    { 
+        get
+        {
+            return this.score.Sum();
+        }
+    }
+    
 }
 
 
